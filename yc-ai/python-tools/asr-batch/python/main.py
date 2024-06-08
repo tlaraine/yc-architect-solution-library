@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import requests
+from dotenv import load_dotenv
 
 # Configuration - Logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
