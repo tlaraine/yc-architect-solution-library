@@ -8,3 +8,4 @@ The repository is Archived.
 🚚 Solutions from this repository has been moved to https://github.com/yandex-cloud-examples/
 
 yc-ai/python-tools/asr-batch
+yc-ai/python-tools/vision-ocr
