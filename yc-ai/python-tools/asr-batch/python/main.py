@@ -9,6 +9,9 @@ from dotenv import load_dotenv
 # Configuration - Logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
+# Загрузка переменных окружения из файла .env (если используется)
+load_dotenv()
+
 # Variables
 config = {
     's3_bucket'       : os.environ['S3_BUCKET'],
